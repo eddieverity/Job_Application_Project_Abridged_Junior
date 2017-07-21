@@ -1,0 +1,16 @@
+th, td {
+  text-align: left;
+  padding:5px;
+  padding-right:10px;
+  border:1px solid black;
+}
+th {
+  color:000000;
+  font-family: "Courier New", Times, serif;
+}
+tr:nth-child(even){
+  background-color: #4CAF50;
+}
+tr:nth-child(odd){
+  background-color: #F2F2F2;
+}

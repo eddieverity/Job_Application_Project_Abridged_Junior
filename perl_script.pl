@@ -3,7 +3,7 @@
 use warnings;
 use DBI;
 
-my $dbh = DBI->connect("dbi:SQLite:att_test.db","","");
+my $dbh = DBI->connect("dbi:SQLite:perl_script.db","","");
 
 # print "Hello, world\n";
 
